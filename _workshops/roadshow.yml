@@ -1,29 +1,28 @@
 ---
 id: roadshow
-name: Roadshow
-revision: ocp_3_5
+name: RSI Apps Roadshow
+revision: oso_1_5
 
 content:
-  url: https://raw.githubusercontent.com/osevg/workshopper-content/master
+  url: https://raw.githubusercontent.com/gregswift/workshopper-content/master
 
 vars:
-  ENVIRONMENT: "Amazon Web Services"
+  ENVIRONMENT: "RSI: Servers"
+  CONSOLE_ADDRESS: "rsi.rackspace.net:4433"
+  ROUTER_ADDRESS: "devapps.rsi.rackspace.net"
   USE_MAVEN: false
   METRICS_ENABLED: true
   LOGGING_ENABLED: true
-  NFS_ENABLED: true
-  ETHERPAD_ENABLED: true
+  NFS_ENABLED: false
+  ETHERPAD_ENABLED: false
   ETHERPAD_URL_PREFIX: "etherpad-workshop-infra"
-  MASTERS: "1"
-  INFRA: "1"
-  NODES: "24"
-  NUM_USERS: "100"
-  DOCS_URL: "docs.openshift.com/container-platform"
-  SUFFIX: "XX"
-  USER_SUFFIX: "-XX"
-  GITLAB_USER: "userXX"
-  GITLAB_PASSWORD: "openshift3"
-  GITLAB_URL_PREFIX: "gitlab-ce-workshop-infra"
+  MASTERS: "3"
+  INFRA: "10"
+  NODES: "20"
+  DOCS_URL: "docs.openshift.org"
+  USER_NAME: "(sso)"
+  USER_PASSWORD: "(sso_password)"
+  GIT_HOST: "github.rackspace.com"
   JAVA_BUILDER_PROPER: "JBoss EAP 7"
   JAVA_BUILDER_STRING: "jboss-eap70-openshift:1.4"
   USER_NAME: "userXX"
