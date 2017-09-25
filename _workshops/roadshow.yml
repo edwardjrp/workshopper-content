@@ -47,6 +47,7 @@ modules:
   - remote-ops
   - python
   - databases-py
+  - configmap
   - application-health
   - pipelines
   - codechanges
