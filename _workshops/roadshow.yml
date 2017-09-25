@@ -47,9 +47,8 @@ modules:
   - logging
   - permissions
   - remote-ops
-  - java
-  - databases
-  - configmap
+  - python
+  - databases-py
   - application-health
   - pipelines
   - codechanges
