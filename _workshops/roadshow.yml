@@ -12,7 +12,7 @@ vars:
   ROUTER_ADDRESS: "devapps.rsi.rackspace.net"
   USE_MAVEN: false
   METRICS_ENABLED: true
-  LOGGING_ENABLED: true
+  LOGGING_ENABLED: false
   NFS_ENABLED: false
   ETHERPAD_ENABLED: false
   ETHERPAD_URL_PREFIX: "etherpad-workshop-infra"
