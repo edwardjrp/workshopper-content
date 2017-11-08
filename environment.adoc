@@ -17,7 +17,11 @@ The infrastructure node is providing several services:
 {% if METRICS_ENABLED %}
 * Cluster metrics
 {% endif %}
+{% if GIT_HOST == "github" %}
+* GitHub
+{% else %}
 * GitLab
+{% endif %}
 * This lab manual
 * The OpenShift Docker registry
 * The OpenShift router
